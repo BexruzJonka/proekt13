@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: url("./images/images.webp") no-repeat center center/cover;
+    font-family: Arial, sans-serif;
+    color: white;
+  }
+  
+  .top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    height: 40px;
+  }
+  
+  .free-btn {
+    background: #00bfff;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .stats, .lang {
+    font-size: 14px;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 40px 0;
+  }
+  
+  .title {
+    background: #f7c600;
+    color: black;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .players {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .player img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    border: 3px solid #000;
+    box-shadow: 0 0 10px black;
+  }
+  
+  .player p {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .info {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .info h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px #333;
+  }
+  
+  .news {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .news-block {
+    background: #111;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0 0 10px #000;
+  }
+  
+  .news-block img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .news-block p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .news-block button {
+    background: #f7c600;
+    border: none;
+    padding: 10px 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  footer {
+    background: #f7c600;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-logo {
+    height: 30px;
+  }
+  
+  .socials img {
+    width: 24px;
+    margin-left: 10px;
+  }
+  
